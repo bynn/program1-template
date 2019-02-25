@@ -4,8 +4,6 @@
 class List {
 private:
 
-
-
 public:
     List();
     ~List();
@@ -13,7 +11,7 @@ public:
     Planet * read (int index);
     bool remove(int index);
     unsigned size();
-}
+};
 
 
 
